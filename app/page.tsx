@@ -228,11 +228,119 @@ export default function Home() {
     </div>
   </div>
 </section>
+    <section className="w-full bg-white py-24">
+  <div className="max-w-5xl mx-auto px-6">
 
+    <h2 className="text-4xl font-semibold text-gray-900 text-center mb-12 tracking-tight">
+      Perguntas rápidas sobre Criptomoedas
+    </h2>
 
-      </section>
+    <div className="space-y-6">
       
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">O que é criptomoeda?</h3>
+        <p className="text-gray-600 mt-2">
+          Dinheiro digital descentralizado, sem controle de bancos.
+        </p>
+      </div>
 
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">Como criar uma carteira digital?</h3>
+        <p className="text-gray-600 mt-2">
+          Baixe um app confiável e gere sua seed phrase.
+        </p>
+      </div>
+
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">Carteira custodial x não-custodial?</h3>
+        <p className="text-gray-600 mt-2">
+          Custodial: empresa guarda as chaves. Não-custodial: você é o dono.
+        </p>
+      </div>
+
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">O que é staking?</h3>
+        <p className="text-gray-600 mt-2">
+          Travar criptos para apoiar a rede e receber recompensas.
+        </p>
+      </div>
+
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">Como proteger minhas criptos?</h3>
+        <p className="text-gray-600 mt-2">
+          2FA, seed no papel, nada de prints, e carteira própria.
+        </p>
+      </div>
+
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">É seguro deixar na exchange?</h3>
+        <p className="text-gray-600 mt-2">
+          Só para uso rápido. Longo prazo = carteira não-custodial.
+        </p>
+      </div>
+
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">Como funciona um cartão cripto?</h3>
+        <p className="text-gray-600 mt-2">
+          Você paga em cripto; a empresa converte para moeda comum na hora.
+        </p>
+      </div>
+
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">Onde posso usar o cartão cripto?</h3>
+        <p className="text-gray-600 mt-2">
+          Em qualquer estabelecimento que aceite cartão tradicional.
+        </p>
+      </div>
+
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">Perdi minha seed phrase, e agora?</h3>
+        <p className="text-gray-600 mt-2">
+          Não tem recuperação. A seed é a chave da sua carteira.
+        </p>
+      </div>
+
+      <div className="p-6 border border-gray-200 rounded-2xl bg-white shadow-sm hover:shadow-md transition">
+        <h3 className="text-lg font-medium text-gray-900">Como evitar golpes?</h3>
+        <p className="text-gray-600 mt-2">
+          Nunca passe a seed phrase, cuidado com links e promessas de lucro rápido.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<footer className="w-full border-t mt-20 bg-white">
+  <div className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+
+    <div>
+      <h3 className="text-lg font-semibold mb-4">ReCryptoView</h3>
+      <p className="text-sm text-gray-600">
+        Plataforma para acompanhar criptomoedas, investimentos e novidades do mercado.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold mb-4">Links</h3>
+      <ul className="space-y-2 text-sm text-gray-600">
+        <li>Política de Privacidade</li>
+        <li>Termos de Uso</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 className="text-lg font-semibold mb-4">Contato</h3>
+      <p className="text-sm text-gray-600">CNPJ: 00.000.000/0001-00</p>
+      <p className="text-sm text-gray-600">leo@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div className="border-t py-6 text-center text-sm text-gray-500">
+    © 2025 ReCryptoView. Todos os direitos reservados.
+  </div>
+</footer>
+      </section>
     </main>
   );
 }
