@@ -110,6 +110,113 @@ export default function Home() {
       </div>
 
     </div>
+    
+    <section className="w-full py-24 bg-white">
+      <div className="max-w-6xl mx-auto px-6 text-center">
+
+        {/* Título */}
+        <h2 className="text-4xl font-semibold tracking-tight text-gray-900 mb-20">
+          Por que escolher nossa plataforma?
+        </h2>
+
+        {/* Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-16">
+
+          {/* Rentabilidade Real */}
+          <div className="flex flex-col items-center">
+            {/* Ícone Apple Style */}
+            <svg
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              strokeWidth="1"
+              className="mb-6 opacity-70"
+            >
+              <path d="M3 17l6-6 4 4 8-8" />
+            </svg>
+
+            <h3 className="text-lg font-medium text-gray-900 mb-2">
+              Rentabilidade Real
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Potencialize seus ganhos com estratégias inteligentes e retorno consistente.
+            </p>
+          </div>
+
+          {/* Segurança */}
+          <div className="flex flex-col items-center">
+            <svg
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              strokeWidth="1"
+              className="mb-6 opacity-70"
+            >
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+
+            <h3 className="text-lg font-medium text-gray-900 mb-2">
+              Segurança de Alto Nível
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Tecnologia de proteção avançada e criptografia de nível bancário.
+            </p>
+          </div>
+
+          {/* Processos Rápidos */}
+          <div className="flex flex-col items-center">
+            <svg
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              strokeWidth="1"
+              className="mb-6 opacity-70"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+
+            <h3 className="text-lg font-medium text-gray-900 mb-2">
+              Transações Instantâneas
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Depósitos, compras e saques processados em segundos.
+            </p>
+          </div>
+
+          {/* Cartão */}
+          <div className="flex flex-col items-center">
+            <svg
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="black"
+              strokeWidth="1"
+              className="mb-6 opacity-70"
+            >
+              <rect x="2" y="7" width="20" height="12" rx="3" />
+              <path d="M2 11h20" />
+            </svg>
+
+            <h3 className="text-lg font-medium text-gray-900 mb-2">
+              Cartão Internacional
+            </h3>
+            <p className="text-gray-600 leading-relaxed">
+              Use suas criptomoedas como dinheiro em qualquer lugar do mundo.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
   </div>
 </section>
       </section>
