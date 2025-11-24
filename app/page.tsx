@@ -67,8 +67,53 @@ export default function Home() {
 
       {/* CONTEÚDO */}
       <section className="p-10">
-        {/* ... */}
+        <section
+  id="inicio"
+  className="w-full bg-white py-20 border-b"
+>
+  <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center">
+
+    {/* TÍTULO */}
+    <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+      Compare os Melhores Cartões Cripto de 2025
+    </h1>
+
+    {/* SUBTÍTULO */}
+    <p className="text-gray-600 mt-4 max-w-2xl text-lg">
+      Descubra as melhores alternativas em taxas, recompensas e suporte às principais criptomoedas do mercado.
+    </p>
+
+    {/* BOTÃO */}
+    <a
+      href="#cartoes"
+      className="mt-8 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg shadow transition"
+    >
+      🔍 Ver Todos os Cartões
+    </a>
+
+    {/* MÉTRICAS */}
+    <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+
+      <div className="bg-white border shadow-sm p-6 rounded-lg">
+        <h3 className="text-3xl font-bold text-blue-600">25+</h3>
+        <p className="mt-2 text-gray-700 font-medium">Cartões analisados</p>
+      </div>
+
+      <div className="bg-white border shadow-sm p-6 rounded-lg">
+        <h3 className="text-3xl font-bold text-blue-600">16+</h3>
+        <p className="mt-2 text-gray-700 font-medium">Criptomoedas</p>
+      </div>
+
+      <div className="bg-white border shadow-sm p-6 rounded-lg">
+        <h3 className="text-3xl font-bold text-blue-600">100%</h3>
+        <p className="mt-2 text-gray-700 font-medium">Gratuito</p>
+      </div>
+
+    </div>
+  </div>
+</section>
       </section>
     </main>
+
   );
 }
