@@ -101,7 +101,7 @@ export default function Home() {
         </section>
 
         {/* POR QUE ESCOLHER */}
-        <section className="w-full py-24 bg-white">
+        <section id="populares" className="w-full py-24 bg-white">
           <div className="max-w-6xl mx-auto px-6 text-center">
 
             <h2 className="text-4xl font-semibold tracking-tight text-gray-900 mb-20">
@@ -228,7 +228,7 @@ export default function Home() {
     </div>
   </div>
 </section>
-    <section className="w-full bg-white py-24">
+    <section id="sobre" className="w-full bg-white py-24">
   <div className="max-w-5xl mx-auto px-6">
 
     <h2 className="text-4xl font-semibold text-gray-900 text-center mb-12 tracking-tight">

@@ -3,8 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-import { Sidebar } from '@/components/ui/sidebar';
-
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -32,7 +30,6 @@ export default function RootLayout({
           "min-h-screen bg-background font-sans antialiased",
         )}
       >
-        <Sidebar />
         {children}
       </body>
     </html>
